@@ -59,7 +59,8 @@ namespace SystemWatcher
         private static void Watcher_Changed(object sender, FileSystemEventArgs e)
         {
             String type = e.ChangeType.ToString();
-
+            
+            //Insert simple switch
             switch (type)
             {
                 case "Created":
