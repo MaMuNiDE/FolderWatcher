@@ -39,6 +39,7 @@ namespace SystemWatcher
 
             Console.WriteLine("Selected path: " + fbd.SelectedPath);
             Console.WriteLine("");
+            
             Console.ResetColor();
 
             FileSystemWatcher watcher = new FileSystemWatcher();
